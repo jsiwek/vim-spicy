@@ -3,7 +3,7 @@ syn region spicyComment start="#" end="$"
 syn keyword spicyImport module import
 syn keyword spicyKeyword
 	\ type
-	\ export
+	\ public
 	\ if
 	\ switch
 	\ on

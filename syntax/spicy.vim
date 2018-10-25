@@ -34,6 +34,7 @@ syn keyword spicyType
 	\ vector
 syn keyword spicyBoolean True False
 syn match spicyHexadecimalInt "\<0x\x\+\>"
+syn match spicyAttribute '&\(length\|byteorder\|bitorder\|convert\|convertback\|default\|chunked\|eod\|ipv4\|ipv6\|parse\|transient\|synchronize\|try\|count\|until\|while\)'
 
 " Set highlights
 hi def link spicyTodo Todo
@@ -44,3 +45,4 @@ hi def link spicyType Type
 hi def link spicyStatement Statement
 hi def link spicyBoolean Boolean
 hi def link spicyHexadecimalInt Number
+hi def link spicyAttribute StorageClass
